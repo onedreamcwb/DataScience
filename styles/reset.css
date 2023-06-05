@@ -1,0 +1,81 @@
+/* Reset CSS */
+/* ------------------------------ */
+
+/* Remova margens e preenchimentos padrão */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+pre,
+blockquote,
+figure,
+hr {
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Defina a cor do texto para preto */
+body {
+  color: #000;
+}
+
+/* Defina a família de fontes e o tamanho do texto */
+body {
+  
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Remova a decoração do link */
+a {
+  text-decoration: none;
+}
+
+/* Defina a cor do link */
+a {
+  color: inherit;
+}
+
+/* Defina a cor de fundo para branco */
+body {
+  background-color: #fff;
+}
+
+/* Defina a caixa de modelo como "border-box" */
+* {
+  box-sizing: border-box;
+}
+
+/* Defina as margens da imagem como zero */
+img {
+  margin: 0;
+}
+
+/* Limpe as tags semânticas HTML5 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* ------------------------------ */
+
+/* Adicione estilos personalizados abaixo deste ponto */
+

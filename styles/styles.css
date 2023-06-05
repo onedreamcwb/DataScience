@@ -1,0 +1,77 @@
+@import url(variaveis.css);
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&family=Vast+Shadow&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    margin: 0 auto;
+    background-color: var(--background);   
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    align-items: center;
+    text-decoration: none;
+}
+.dropdown {
+    position: relative;
+    list-style-type: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--background);
+    padding: 1.25em;
+    margin: 0;
+    list-style-type: none;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+.container-banner, img {
+    position: relative;
+    width: 100vw;
+    opacity: 0.8;
+    padding-bottom: 15px;
+}
+.banner-title {
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+h2 {
+    text-align: center;
+
+}
+.logo {
+    width: 100px;
+}
+strong {
+    color: var(--primary-color);
+}
+h2 {
+
+}
+.container {
+
+}
